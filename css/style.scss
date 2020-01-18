@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    #digital_clock{
+        border: 2px solid darkslategrey;
+        border-radius: 10px;      
+        padding: 20px;    
+        width: 600px;    
+        font-size: 50px;
+        color: rgb(51, 202, 51);
+        font-family: 'Orbitron', sans-serif;
+        transition: 0.5s all ease;
+       
+      }
+    
+}
